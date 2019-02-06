@@ -26,7 +26,11 @@ namespace CourseWeb
             bundles.Add(new StyleBundle("~/Content/css").Include(
                       "~/Content/bootstrap.css",
                       "~/Content/site.css",
-                      "~/Content/LoginStyle.css"));
+                      "~/Content/LoginStyle.css",
+                      "~/Content/fontawesome-free-5.7.1-web/css/all.min.css"));
+
+            bundles.Add(new ScriptBundle("~/Content/fontawesome-free-5.7.1-web/js").Include(
+                 "~/Content/fontawesome-free-5.7.1-web/js/all.min.js"));
         }
     }
 }
