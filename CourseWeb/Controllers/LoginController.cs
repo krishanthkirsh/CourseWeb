@@ -17,7 +17,6 @@ namespace CourseWeb.Controllers
             if (ModelState.IsValid)
             {
                 string hashPassword = getHashPassword(model.PassWord);
-                Console.WriteLine(hashPassword);
             }
             else
             {
